@@ -90,6 +90,4 @@ This project is a **Firebase Authentication-based web application** built using 
 - Role-based authentication  
 
 
-## 📄 License
 
-MIT License
