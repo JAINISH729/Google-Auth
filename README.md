@@ -70,52 +70,6 @@ This project is a **Firebase Authentication-based web application** built using 
 ### LOGIN WITH GOOGLE STEP :
 <img width="1918" height="956" alt="Screenshot 2026-04-21 173407" src="https://github.com/user-attachments/assets/cef24ebe-ef06-4003-a4e5-e5ade9111697" />
 
-
----
-
-## ⚙️ Installation & Setup
-
-### 1. Clone the repository
-```bash
-git clone https://github.com/your-username/your-repo-name.git
-cd your-repo-name
-```
-
-### 2. Install dependencies
-```bash
-npm install
-```
-
-### 3. Setup Firebase
-
-Create a file: `firebase.js`
-
-```javascript
-import { initializeApp } from "firebase/app";
-
-const firebaseConfig = {
-  apiKey: "YOUR_API_KEY",
-  authDomain: "YOUR_AUTH_DOMAIN",
-  projectId: "YOUR_PROJECT_ID",
-  appId: "YOUR_APP_ID"
-};
-
-const app = initializeApp(firebaseConfig);
-
-export default app;
-```
-
-Enable in Firebase:
-- Email/Password Authentication
-- Google Authentication
-
----
-
-### 4. Run the project
-```bash
-npm run dev
-```
-
 ---
 
 ## 🔐 Authentication Flow
